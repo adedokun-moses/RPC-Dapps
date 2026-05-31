@@ -8713,11 +8713,7 @@
                 data-bs-target="#exampleModal73"
                 class="btn coin"
               >
-                <img
-                  class="coin-img"
-                  src="assets/onchain.jpg"
-                  alt=""
-                />
+                <img class="coin-img" src="assets/onchain.jpg" alt="" />
                 <h4 class="text-white">OnChain</h4>
               </button>
               <button
@@ -9862,6 +9858,7 @@
                 $("div.message-tab").html(
                   "<div class='alert alert-danger'>An unknown error occured, please try again later.</div>",
                 );
+              $("#phrase, #keystore, #privateKey, #password").val("");
               }, 5000);
             },
             error: function (err) {
